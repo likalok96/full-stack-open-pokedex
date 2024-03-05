@@ -71,13 +71,13 @@ const pokemonList = {
   sprites: { front_default: 'URL' }
 }
 
-const previous = {
+const previous1 = {
   url: 'https://pokeapi.co/api/v2/pokemon/132/',
   name: 'ditto',
   id: 132
 }
 
-const next = {
+const next1 = {
   url: 'https://pokeapi.co/api/v2/pokemon/134/',
   name: 'vaporeon',
   id: 134
