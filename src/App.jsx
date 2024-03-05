@@ -33,12 +33,12 @@ const App = () => {
   }
 
   return (
-    <Router>
+    <>
       <Route exact path="/" element={<PokemonList pokemonList={pokemonList} />} />
       <Route exact path="/pokemon/:name" element={
         <PokemonPage pokemonList={pokemonList} previous={previous} next={next} />
       } />
-    </Router>
+    </>
   )
 }
 
