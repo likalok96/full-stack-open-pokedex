@@ -70,7 +70,7 @@ const pokemonList = {
   ],
   sprites: { front_default: 'URL' }
 }
-
+/*
 const previous1 = {
   url: 'https://pokeapi.co/api/v2/pokemon/132/',
   name: 'ditto',
@@ -82,7 +82,7 @@ const next1 = {
   name: 'vaporeon',
   id: 134
 }
-
+*/
 describe('<PokemonPage />', () => {
   it('should render abilities', async () => {
     axiosMock.get.mockResolvedValueOnce({ data: pokemonList })
@@ -141,5 +141,5 @@ describe('<PokemonPage />', () => {
 
     expect(screen.queryByText('Previous')).toBeNull()
     expect(screen.queryByText('Next')).toBeNull()
-  })  
+  })
 })
