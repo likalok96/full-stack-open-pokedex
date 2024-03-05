@@ -1,5 +1,6 @@
 module.exports = {
   "env": {
+    "node": true,
     "browser": true,
     "es6": true,
     "jest/globals": true
@@ -21,19 +22,19 @@ module.exports = {
   "rules": {
     "indent": [
       "error",
-        2
-      ],
+      2
+    ],
     "linebreak-style": [
       "error",
       "unix"
     ],
     "quotes": [
       "error",
-      "single"
+      "double"
     ],
     "semi": [
       "error",
-      "never"
+      "always"
     ],
     "eqeqeq": "error",
     "no-trailing-spaces": "error",
